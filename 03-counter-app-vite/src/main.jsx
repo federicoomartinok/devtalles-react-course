@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HelloWorldApp } from './HelloWorldApp';
 import { FirstApp } from './FirstApp';
+import './styles.css';
 
 
 
@@ -9,7 +10,7 @@ import { FirstApp } from './FirstApp';
 //En strict mode
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp />
+        <FirstApp title="Hola soy Fede" subTitle='Full-Stack developer'/>
     </React.StrictMode>
 );
 
