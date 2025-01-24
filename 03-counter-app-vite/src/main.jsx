@@ -12,7 +12,7 @@ import './styles.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         {/* <FirstApp title="Hola soy Fede" subTitle='Full-Stack developer'/> */}
-        {<CounterApp value={5}/>}
+        {<CounterApp value={0}/>}
     </React.StrictMode>
 );
 
