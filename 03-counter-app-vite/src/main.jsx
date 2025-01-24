@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HelloWorldApp } from './HelloWorldApp';
-import { FirstApp } from './FirstApp';
+// import { HelloWorldApp } from './HelloWorldApp';
+// import { FirstApp } from './FirstApp';
+import { CounterApp } from './CounterApp';
 import './styles.css';
 
 
@@ -10,7 +11,8 @@ import './styles.css';
 //En strict mode
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp title="Hola soy Fede" subTitle='Full-Stack developer'/>
+        {/* <FirstApp title="Hola soy Fede" subTitle='Full-Stack developer'/> */}
+        {<CounterApp value={5}/>}
     </React.StrictMode>
 );
 
